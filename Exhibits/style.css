@@ -1,0 +1,93 @@
+
+navbar-nav {
+    display: inline-block;
+    justify-content: around;
+    
+ }
+ .parallax {
+    /* The image used */
+    background-image: url("parallax.png");
+
+    /* Set a specific height */
+    min-height: 450px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;       
+}
+
+.navbar-nav > li {
+    float:none;
+    display:table-cell;
+    text-align:center;
+}
+
+.nav-item {
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+    padding-right: 45px;
+    padding-left: 45px;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.dropdown-menu {
+    background-color: #212529 ;
+}
+
+.dropdown-item{
+    color:#ffff ;
+}
+
+.card{
+    background-color: black;
+    color: white ;
+}
+
+.card-body{
+    background-color: #212529;
+}
+.jumbotron{
+    background-color: #212529;
+    color:white;
+    font-family: 'Libre Baskerville', serif;
+    margin-bottom: 0rem;
+}
+
+.display-4{
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+}
+
+.parallax-2 {
+    /* The image used */
+    background-image: url("Parallax-2.png");
+
+    /* Set a specific height */
+    min-height: 450px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;       
+}
+
+.parallax-3 {
+    /* The image used */
+    background-image: url("Parallax-3.png");
+
+    /* Set a specific height */
+    min-height: 450px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;       
+}
